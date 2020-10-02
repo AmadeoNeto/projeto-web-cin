@@ -57,12 +57,28 @@ main{
     position: relative;
     margin-top: 2rem;
     margin-left: 26%;
+    margin-right: 10rem;
     padding-left: 1rem;
 }
 
 .projects{
     text-align: left;
     justify-content: space-around;
+}
+
+.img_projects{
+    display: block;
+    margin-left: 10rem;
+    width: 70%;
+}
+
+.row_images{
+    display: flex;
+    margin-left: 10rem;
+}
+
+.collumn_images{
+    flex: 50%;
 }
 
 .top, .bottom{
