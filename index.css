@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* O asterisco adiciona a definição em toda a página */
+*{ 
+    font-family: "Roboto", sans-serif /*fonte definida no html*/
+}
+
+html,body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(247, 235, 210);
+}
+
+.container{
+    display: flex;
+}
+
+.menu_left{
+    top: 0;
+    position: fixed;
+    display: flex;
+    box-sizing: border-box; 
+    flex-direction: column;
+    width: 25%;
+    height: 100vh; /*100% view height*/
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    align-items: center;
+    justify-content: space-around; /*espaço entre os elementos*/
+    background-color: wheat;
+    color: black;
+    font-size: 90%;
+    z-index: 2;
+}
+
+header{
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    height: 2rem;
+    font-size: 2rem;
+    background-color: rgb(56, 137, 190);
+    width: 100%;
+    z-index: 3;
+    margin:0,auto;
+}
+
+main{
+    position: relative;
+    margin-top: 2rem;
+    margin-left: 26%;
+    padding-left: 1rem;
+}
+
+.projects{
+    text-align: left;
+    justify-content: space-around;
+}
+
+.top, .bottom{
+    display: flex;
+    flex-direction: column;
+}
