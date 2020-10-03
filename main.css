@@ -7,6 +7,7 @@
 
 html,body{
     margin: 0;
+    display: flex;
     box-sizing: border-box;
     background-color: rgb(247, 235, 210);
 }
@@ -29,24 +30,28 @@ a:hover{
     display: flex;
     box-sizing: border-box; 
     flex-direction: column;
-    width: 25%;
+    width: 25vw;
     height: 100vh; /*100% view height*/
+    padding-left: 1rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
     align-items: center;
     justify-content: space-around; /*espaço entre os elementos*/
     background-color: wheat;
     color: black;
-    font-size: 90%;
+    font-size: 1vw;
     z-index: 2;
+}
+
+.photo{
+    width: 15vw;
 }
 
 header{
     margin: 0;
     position: fixed;
-    width: 100%;
-    height: 2rem;
-    font-size: 2rem;
+    width: 100wh;
+    height: 4vh;
     background-color: rgb(56, 137, 190);
     width: 100%;
     z-index: 3;
@@ -56,9 +61,10 @@ header{
 main{
     position: relative;
     margin-top: 2rem;
-    margin-left: 26%;
-    margin-right: 10rem;
+    margin-left: 26vw;
+    margin-right: 10vw;
     padding-left: 1rem;
+    width: 50vw;
 }
 
 .projects{
@@ -67,9 +73,9 @@ main{
 }
 
 .img_projects{
-    display: block;
-    margin-left: 10rem;
-    width: 70%;
+    display: flex;
+    margin-left: 5vw;
+    width: 50vw;
 }
 
 .row_images{
