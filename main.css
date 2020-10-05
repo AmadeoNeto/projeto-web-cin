@@ -36,15 +36,28 @@ a:hover{
     padding-top: 2rem;
     padding-bottom: 2rem;
     align-items: center;
-    justify-content: space-around; /*espaço entre os elementos*/
+    justify-content: space-between; /*espaço entre os elementos*/
     background-color: wheat;
     color: black;
     font-size: 1vw;
     z-index: 2;
 }
 
+.top, .bottom{
+    display: flex;
+    flex-direction: column;
+    padding-top: 45%;
+}
+
+.bottom{
+    padding-top: 10%;
+    padding-bottom: 25%;
+}
+
 .photo{
+    border-radius: 50%;
     width: 15vw;
+    height: 30vh;
 }
 
 header{
@@ -85,9 +98,4 @@ main{
 
 .collumn_images{
     flex: 50%;
-}
-
-.top, .bottom{
-    display: flex;
-    flex-direction: column;
 }
